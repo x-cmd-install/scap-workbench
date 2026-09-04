@@ -7,7 +7,7 @@ about:
   head: 10c1929
   archived: true
   latestVersion: 1.2.1
-  collectedAt: 2026-09-04T19:18:34Z
+  collectedAt: 2026-09-04T21:21:25Z
 timeline:
   created: 2014-04-29
   lastCommit: 2022-12-19
@@ -83,5 +83,63 @@ total:
   openIssue: 68
   commit: 1768
 ---
+path: /home/runner/.x-repo/github.com/OpenSCAP/scap-workbench
+collectedAt: 2026-09-04T21:21:26Z
+loc:
+  Cpp:
+    code: 6491
+    comments: 955
+    blanks: 1533
+    files: 27
+  CHeader:
+    code: 1216
+    comments: 1673
+    blanks: 581
+    files: 28
+  Autoconf:
+    code: 545
+    comments: 75
+    blanks: 44
+    files: 7
+  AsciiDoc:
+    code: 400
+    comments: 0
+    blanks: 142
+    files: 1
+  CMake:
+    code: 369
+    comments: 79
+    blanks: 79
+    files: 2
+  Sh:
+    code: 115
+    comments: 86
+    blanks: 42
+    files: 5
+  Svg:
+    code: 62
+    comments: 1
+    blanks: 1
+    files: 1
+  Xml:
+    code: 39
+    comments: 0
+    blanks: 0
+    files: 1
+  Markdown:
+    code: 0
+    comments: 97
+    blanks: 31
+    files: 1
+  Text:
+    code: 0
+    comments: 44
+    blanks: 13
+    files: 1
+total:
+  code: 9237
+  comments: 3010
+  blanks: 2466
+  files: 74
 ---
 
