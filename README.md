@@ -14,6 +14,18 @@ SCAP Scanner And Tailoring Graphical User Interface
 x install scap-workbench
 ```
 
+## Code insight
+
+Total: **9,237** lines of code across **65** files in the top 5 languages.
+
+| Language | Code | Comments | Blanks | Files |
+|----------|-----:|---------:|-------:|------:|
+| Cpp | 6,491 | 955 | 1,533 | 27 |
+| CHeader | 1,216 | 1,673 | 581 | 28 |
+| Autoconf | 545 | 75 | 44 | 7 |
+| AsciiDoc | 400 | 0 | 142 | 1 |
+| CMake | 369 | 79 | 79 | 2 |
+
 ## Source
 
 - **Upstream**: <https://github.com/OpenSCAP/scap-workbench>
@@ -25,14 +37,6 @@ x install scap-workbench
 - **Latest**: `1.2.1` (2020-01-27)
 - **Last commit**: 2022-12-19
 - **Assets in release**: 3
-
-## Release assets
-
-| Asset | Size | Target |
-|-------|-----:|--------|
-| [scap-workbench-1.2.1.dmg](https://github.com/OpenSCAP/scap-workbench/releases/download/1.2.1/scap-workbench-1.2.1.dmg) | 104.1 MiB | `other` |
-| [scap-workbench-1.2.1.tar.bz2](https://github.com/OpenSCAP/scap-workbench/releases/download/1.2.1/scap-workbench-1.2.1.tar.bz2) | 3.3 MiB | `other` |
-| [scap-workbench-1.2.1.tar.bz2.sha512sum](https://github.com/OpenSCAP/scap-workbench/releases/download/1.2.1/scap-workbench-1.2.1.tar.bz2.sha512sum) | 159 B | `other` |
 
 ## Popularity
 
@@ -47,20 +51,23 @@ x install scap-workbench
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
 | 30d | 2026-08-11 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-12 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 90d | 2026-06-12 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-03-14 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 360d | 2025-09-15 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-09-20 | 0 | 0 | 0 | 0 | 0 | 0 |
 
-## Code size
+## Release assets
 
-Total: **9,237** lines of code across **65** files in the top 5 languages.
+| Asset | Size | Target |
+|-------|-----:|--------|
+| [scap-workbench-1.2.1.dmg](https://github.com/OpenSCAP/scap-workbench/releases/download/1.2.1/scap-workbench-1.2.1.dmg) | 104.1 MiB | `other` |
+| [scap-workbench-1.2.1.tar.bz2](https://github.com/OpenSCAP/scap-workbench/releases/download/1.2.1/scap-workbench-1.2.1.tar.bz2) | 3.3 MiB | `other` |
+| [scap-workbench-1.2.1.tar.bz2.sha512sum](https://github.com/OpenSCAP/scap-workbench/releases/download/1.2.1/scap-workbench-1.2.1.tar.bz2.sha512sum) | 159 B | `other` |
 
-| Language | Code | Comments | Blanks | Files |
-|----------|-----:|---------:|-------:|------:|
-| Cpp | 6,491 | 955 | 1,533 | 27 |
-| CHeader | 1,216 | 1,673 | 581 | 28 |
-| Autoconf | 545 | 75 | 44 | 7 |
-| AsciiDoc | 400 | 0 | 142 | 1 |
-| CMake | 369 | 79 | 79 | 2 |
+## Distribution status
+
+Reported by **42** distros on [repology.org](https://repology.org/project/scap-workbench). **25** are ✅ on the latest upstream release, **15** are ⚠️ on an older version.
 
 ## Improve this data
 
@@ -71,4 +78,4 @@ Install metadata for scap-workbench lives in the [x-cmd/install](https://github.
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T16:23:38Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T21:02:19Z._
