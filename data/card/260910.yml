@@ -7,7 +7,7 @@ about:
   latestVersion: "1.2.1"
   latestRelease: "1.2.1"
   latestPrerelease: "1.1.0rc1"
-  collectedAt: 2026-09-10T04:41:15Z
+  collectedAt: 2026-09-10T16:23:31Z
 timeline:
   created: 2014-04-29
   lastCommit: 2022-12-19
@@ -86,7 +86,7 @@ total:
   commit: 1768
 ---
 path: /home/runner/.x-repo/github.com/OpenSCAP/scap-workbench
-collectedAt: 2026-09-10T04:41:17Z
+collectedAt: 2026-09-10T16:23:34Z
 loc:
   Cpp:
     code: 6491
