@@ -1,0 +1,594 @@
+- repo: amazon_2
+  srcname: scap-workbench
+  visiblename: scap-workbench
+  version: 1.1.4
+  origversion: 1.1.4-5.amzn2
+  status: legacy
+  summary: Scanning, tailoring, editing and validation tool for SCAP content
+  licenses:
+    - GPLv3+
+  categories:
+    - System Environment/Base
+- repo: amazon_2
+  srcname: scap-workbench
+  visiblename: scap-workbench
+  version: 1.1.6
+  origversion: 1.1.6-1.amzn2
+  status: outdated
+  summary: Scanning, tailoring, editing and validation tool for SCAP content
+  licenses:
+    - GPLv3+
+  categories:
+    - System Environment/Base
+- repo: almalinux_8
+  subrepo: AppStream
+  srcname: scap-workbench
+  visiblename: scap-workbench
+  version: 1.2.0
+  origversion: 1.2.0-8.el8
+  status: outdated
+  summary: Scanning, tailoring, editing and validation tool for SCAP content
+  maintainers:
+    - packager@almalinux.org
+  licenses:
+    - GPLv3+
+  categories:
+    - System Environment/Base
+- repo: almalinux_9
+  subrepo: AppStream
+  srcname: scap-workbench
+  binnames:
+    - scap-workbench
+    - scap-workbench-debuginfo
+    - scap-workbench-debugsource
+  visiblename: scap-workbench
+  version: 1.2.1
+  origversion: 1.2.1-13.el9
+  status: newest
+  summary: Scanning, tailoring, editing and validation tool for SCAP content
+  maintainers:
+    - packager@almalinux.org
+  licenses:
+    - GPLv3+
+  categories:
+    - Unspecified
+- repo: aur
+  srcname: scap-workbench
+  binname: scap-workbench
+  visiblename: scap-workbench
+  version: 1.2.1
+  origversion: 1.2.1-2
+  status: newest
+  summary: Security Content Automation Protocol GUI
+  maintainers:
+    - alex.henrie@aur
+  licenses:
+    - BSD
+- repo: aur
+  srcname: scap-workbench-git
+  binname: scap-workbench-git
+  visiblename: scap-workbench-git
+  version: 1.2.1.r67.10c1929
+  origversion: 1.2.1.r67.10c1929-2
+  status: rolling
+  summary: Security Content Automation Protocol GUI
+  maintainers:
+    - alex.henrie@aur
+  licenses:
+    - BSD
+- repo: blackarch
+  srcname: scap-workbench
+  binname: scap-workbench
+  visiblename: scap-workbench
+  version: 1.2.1
+  origversion: 1.2.1-1
+  status: newest
+  summary: SCAP Scanner And Tailoring Graphical User Interface.
+  licenses:
+    - GPL2
+- repo: centos_6
+  subrepo: os
+  srcname: scap-workbench
+  visiblename: scap-workbench
+  version: 1.1.1
+  origversion: 1.1.1-1.el6
+  status: outdated
+  summary: Scanning, tailoring, editing and validation tool for SCAP content
+  licenses:
+    - GPLv3+
+  categories:
+    - System Environment/Base
+- repo: centos_7
+  subrepo: os
+  srcname: scap-workbench
+  visiblename: scap-workbench
+  version: 1.1.6
+  origversion: 1.1.6-1.el7
+  status: outdated
+  summary: Scanning, tailoring, editing and validation tool for SCAP content
+  licenses:
+    - GPLv3+
+  categories:
+    - System Environment/Base
+- repo: centos_8
+  subrepo: AppStream
+  srcname: scap-workbench
+  visiblename: scap-workbench
+  version: 1.2.0
+  origversion: 1.2.0-8.el8
+  status: outdated
+  summary: Scanning, tailoring, editing and validation tool for SCAP content
+  maintainers:
+    - bugs@centos.org
+  licenses:
+    - GPLv3+
+  categories:
+    - System Environment/Base
+- repo: centos_stream_8
+  subrepo: AppStream
+  srcname: scap-workbench
+  visiblename: scap-workbench
+  version: 1.2.0
+  origversion: 1.2.0-8.el8
+  status: outdated
+  summary: Scanning, tailoring, editing and validation tool for SCAP content
+  maintainers:
+    - bugs@centos.org
+  licenses:
+    - GPLv3+
+  categories:
+    - System Environment/Base
+- repo: centos_stream_9
+  subrepo: AppStream
+  srcname: scap-workbench
+  binnames:
+    - scap-workbench
+    - scap-workbench-debuginfo
+    - scap-workbench-debugsource
+  visiblename: scap-workbench
+  version: 1.2.1
+  origversion: 1.2.1-11.el9
+  status: newest
+  summary: Scanning, tailoring, editing and validation tool for SCAP content
+  maintainers:
+    - builder@centos.org
+  licenses:
+    - GPLv3+
+  categories:
+    - Unspecified
+- repo: centos_stream_9
+  subrepo: AppStream
+  srcname: scap-workbench
+  binnames:
+    - scap-workbench
+    - scap-workbench-debuginfo
+    - scap-workbench-debugsource
+  visiblename: scap-workbench
+  version: 1.2.1
+  origversion: 1.2.1-13.el9
+  status: newest
+  summary: Scanning, tailoring, editing and validation tool for SCAP content
+  maintainers:
+    - builder@centos.org
+  licenses:
+    - GPLv3+
+  categories:
+    - Unspecified
+- repo: debian_experimental
+  subrepo: experimental/main
+  srcname: scap-workbench
+  binnames:
+    - scap-workbench
+  visiblename: scap-workbench
+  version: 1.2.1
+  origversion: 1.2.1-1
+  status: newest
+  maintainers:
+    - fpiat@klabs.be
+    - henri@nerv.fi
+    - henrich@debian.org
+    - klee@debian.org
+  categories:
+    - misc
+- repo: deepin_unstable
+  subrepo: main
+  srcname: scap-workbench
+  binnames:
+    - scap-workbench
+  visiblename: scap-workbench
+  version: 1.1.5
+  origversion: 1.1.5-1
+  status: outdated
+  maintainers:
+    - fpiat@klabs.be
+    - henri@nerv.fi
+    - klee@debian.org
+- repo: eurolinux_8
+  subrepo: appstream
+  srcname: scap-workbench
+  visiblename: scap-workbench
+  version: 1.2.0
+  origversion: 1.2.0-4.el8
+  status: outdated
+  summary: Scanning, tailoring, editing and validation tool for SCAP content
+  licenses:
+    - GPLv3+
+  categories:
+    - System Environment/Base
+- repo: eurolinux_8
+  subrepo: appstream
+  srcname: scap-workbench
+  visiblename: scap-workbench
+  version: 1.2.0
+  origversion: 1.2.0-5.el8
+  status: outdated
+  summary: Scanning, tailoring, editing and validation tool for SCAP content
+  licenses:
+    - GPLv3+
+  categories:
+    - System Environment/Base
+- repo: eurolinux_8
+  subrepo: appstream
+  srcname: scap-workbench
+  visiblename: scap-workbench
+  version: 1.2.0
+  origversion: 1.2.0-8.el8
+  status: outdated
+  summary: Scanning, tailoring, editing and validation tool for SCAP content
+  licenses:
+    - GPLv3+
+  categories:
+    - System Environment/Base
+- repo: eurolinux_9
+  subrepo: appstream
+  srcname: scap-workbench
+  binnames:
+    - scap-workbench
+    - scap-workbench-debuginfo
+    - scap-workbench-debugsource
+  visiblename: scap-workbench
+  version: 1.2.1
+  origversion: 1.2.1-13.el9
+  status: newest
+  summary: Scanning, tailoring, editing and validation tool for SCAP content
+  licenses:
+    - GPLv3+
+  categories:
+    - Unspecified
+- repo: eurolinux_9
+  subrepo: baseos
+  srcname: scap-workbench
+  binnames:
+    - scap-workbench
+    - scap-workbench-debuginfo
+    - scap-workbench-debugsource
+  visiblename: scap-workbench
+  version: 1.2.1
+  origversion: 1.2.1-13.el9
+  status: newest
+  summary: Scanning, tailoring, editing and validation tool for SCAP content
+  licenses:
+    - GPLv3+
+  categories:
+    - Unspecified
+- repo: fedora_39
+  subrepo: release
+  srcname: scap-workbench
+  binnames:
+    - scap-workbench
+    - scap-workbench-debuginfo
+    - scap-workbench-debugsource
+  visiblename: scap-workbench
+  version: 1.2.1
+  origversion: 1.2.1-14.fc39
+  status: newest
+  summary: Scanning, tailoring, editing and validation tool for SCAP content
+  licenses:
+    - GPL-3.0-or-later
+  categories:
+    - Unspecified
+- repo: fedora_39
+  subrepo: updates
+  srcname: scap-workbench
+  binnames:
+    - scap-workbench
+    - scap-workbench-debuginfo
+    - scap-workbench-debugsource
+  visiblename: scap-workbench
+  version: 1.2.1
+  origversion: 1.2.1-15.fc39
+  status: newest
+  summary: Scanning, tailoring, editing and validation tool for SCAP content
+  licenses:
+    - GPL-3.0-or-later
+  categories:
+    - Unspecified
+- repo: fedora_40
+  subrepo: release
+  srcname: scap-workbench
+  binnames:
+    - scap-workbench
+    - scap-workbench-debuginfo
+    - scap-workbench-debugsource
+  visiblename: scap-workbench
+  version: 1.2.1
+  origversion: 1.2.1-15.fc40
+  status: newest
+  summary: Scanning, tailoring, editing and validation tool for SCAP content
+  licenses:
+    - GPL-3.0-or-later
+  categories:
+    - Unspecified
+- repo: fedora_40
+  subrepo: updates
+  srcname: scap-workbench
+  binnames:
+    - scap-workbench
+    - scap-workbench-debuginfo
+    - scap-workbench-debugsource
+  visiblename: scap-workbench
+  version: 1.2.1
+  origversion: 1.2.1-16.fc40
+  status: newest
+  summary: Scanning, tailoring, editing and validation tool for SCAP content
+  licenses:
+    - GPL-3.0-or-later
+  categories:
+    - Unspecified
+- repo: fedora_41
+  subrepo: release
+  srcname: scap-workbench
+  binnames:
+    - scap-workbench
+  visiblename: scap-workbench
+  version: 1.2.1
+  origversion: 1.2.1-17.fc41
+  status: newest
+  summary: Scanning, tailoring, editing and validation tool for SCAP content
+  licenses:
+    - GPL-3.0-or-later
+  categories:
+    - Unspecified
+- repo: homebrew_casks
+  srcname: scap-workbench
+  visiblename: SCAP Workbench
+  version: 1.2.1
+  origversion: null
+  status: newest
+  summary: SCAP Scanner And Tailoring Graphical User Interface
+- repo: openeuler_20_03_lts_sp3
+  srcname: scap-workbench
+  visiblename: scap-workbench
+  version: 1.2.0
+  origversion: 1.2.0-2.oe1
+  status: outdated
+  summary: Scanning, tailoring, editing and validation tool for SCAP content
+  licenses:
+    - GPLv3+
+  categories:
+    - Unspecified
+- repo: openeuler_20_03_lts_sp4
+  srcname: scap-workbench
+  visiblename: scap-workbench
+  version: 1.2.0
+  origversion: 1.2.0-2.oe2003sp4
+  status: outdated
+  summary: Scanning, tailoring, editing and validation tool for SCAP content
+  licenses:
+    - GPLv3+
+  categories:
+    - Unspecified
+- repo: openeuler_22_03_lts_sp1
+  srcname: scap-workbench
+  binnames:
+    - scap-workbench
+    - scap-workbench-help
+    - scap-workbench-debuginfo
+    - scap-workbench-debugsource
+  visiblename: scap-workbench
+  version: 1.2.1
+  origversion: 1.2.1-1.oe2203sp1
+  status: newest
+  summary: Scanning, tailoring, editing and validation tool for SCAP content
+  licenses:
+    - GPLv3+
+  categories:
+    - Unspecified
+- repo: openeuler_22_03_lts_sp3
+  srcname: scap-workbench
+  binnames:
+    - scap-workbench
+    - scap-workbench-help
+    - scap-workbench-debuginfo
+    - scap-workbench-debugsource
+  visiblename: scap-workbench
+  version: 1.2.1
+  origversion: 1.2.1-1.oe2203sp3
+  status: newest
+  summary: Scanning, tailoring, editing and validation tool for SCAP content
+  licenses:
+    - GPLv3+
+  categories:
+    - Unspecified
+- repo: openeuler_22_03_lts_sp4
+  srcname: scap-workbench
+  binnames:
+    - scap-workbench
+    - scap-workbench-help
+    - scap-workbench-debuginfo
+    - scap-workbench-debugsource
+  visiblename: scap-workbench
+  version: 1.2.1
+  origversion: 1.2.1-1.oe2203sp4
+  status: newest
+  summary: Scanning, tailoring, editing and validation tool for SCAP content
+  licenses:
+    - GPLv3+
+  categories:
+    - Unspecified
+- repo: openeuler_24_03_lts
+  srcname: scap-workbench
+  binnames:
+    - scap-workbench
+    - scap-workbench-help
+    - scap-workbench-debuginfo
+    - scap-workbench-debugsource
+  visiblename: scap-workbench
+  version: 1.2.1
+  origversion: 1.2.1-2.oe2403
+  status: newest
+  summary: Scanning, tailoring, editing and validation tool for SCAP content
+  licenses:
+    - GPLv3+
+  categories:
+    - Unspecified
+- repo: openeuler_24_03_lts_sp1
+  srcname: scap-workbench
+  binnames:
+    - scap-workbench
+    - scap-workbench-help
+    - scap-workbench-debuginfo
+    - scap-workbench-debugsource
+  visiblename: scap-workbench
+  version: 1.2.1
+  origversion: 1.2.1-2.oe2403sp1
+  status: newest
+  summary: Scanning, tailoring, editing and validation tool for SCAP content
+  licenses:
+    - GPLv3+
+  categories:
+    - Unspecified
+- repo: openeuler_24_09
+  srcname: scap-workbench
+  binnames:
+    - scap-workbench
+    - scap-workbench-help
+    - scap-workbench-debuginfo
+    - scap-workbench-debugsource
+  visiblename: scap-workbench
+  version: 1.2.1
+  origversion: 1.2.1-2.oe2409
+  status: newest
+  summary: Scanning, tailoring, editing and validation tool for SCAP content
+  licenses:
+    - GPLv3+
+  categories:
+    - Unspecified
+- repo: openeuler_25_03
+  srcname: scap-workbench
+  binnames:
+    - scap-workbench
+    - scap-workbench-help
+    - scap-workbench-debuginfo
+    - scap-workbench-debugsource
+  visiblename: scap-workbench
+  version: 1.2.1
+  origversion: 1.2.1-4.oe2503
+  status: newest
+  summary: Scanning, tailoring, editing and validation tool for SCAP content
+  licenses:
+    - GPL-3.0-or-later
+  categories:
+    - Unspecified
+- repo: opensuse_leap_15_5
+  subrepo: main/oss
+  srcname: scap-workbench
+  visiblename: scap-workbench
+  version: 1.2.1
+  origversion: 1.2.1+git20210604.1fc6def-150400.1.5
+  status: newest
+  summary: A SCAP scanner and SCAP content editor
+  licenses:
+    - GPL-3.0-only
+  categories:
+    - Productivity/Security
+- repo: opensuse_leap_15_6
+  subrepo: main/oss
+  srcname: scap-workbench
+  visiblename: scap-workbench
+  version: 1.2.1
+  origversion: 1.2.1+git20210604.1fc6def-150400.1.5
+  status: newest
+  summary: A SCAP scanner and SCAP content editor
+  licenses:
+    - GPL-3.0-only
+  categories:
+    - Productivity/Security
+- repo: opensuse_security_tumbleweed
+  srcname: scap-workbench
+  binnames:
+    - scap-workbench
+    - scap-workbench-debuginfo
+    - scap-workbench-debugsource
+    - scap-workbench-doc
+  visiblename: scap-workbench
+  version: 1.2.1
+  origversion: 1.2.1+git20221219.10c1929-47.26
+  status: newest
+  summary: A SCAP scanner and SCAP content editor
+  licenses:
+    - GPL-3.0-only
+  categories:
+    - Productivity/Security
+- repo: pureos_amber
+  subrepo: amber/main
+  srcname: scap-workbench
+  binnames:
+    - scap-workbench
+  visiblename: scap-workbench
+  version: 1.1.5
+  origversion: 1.1.5-1
+  status: outdated
+  maintainers:
+    - fpiat@klabs.be
+    - henri@nerv.fi
+    - klee@debian.org
+  categories:
+    - admin
+- repo: rocky_8
+  subrepo: AppStream
+  srcname: scap-workbench
+  visiblename: scap-workbench
+  version: 1.2.0
+  origversion: 1.2.0-8.el8
+  status: outdated
+  summary: Scanning, tailoring, editing and validation tool for SCAP content
+  maintainers:
+    - infrastructure@rockylinux.org
+  licenses:
+    - GPLv3+
+  categories:
+    - System Environment/Base
+- repo: rocky_9
+  subrepo: AppStream
+  srcname: scap-workbench
+  binnames:
+    - scap-workbench
+    - scap-workbench-debuginfo
+    - scap-workbench-debugsource
+  visiblename: scap-workbench
+  version: 1.2.1
+  origversion: 1.2.1-13.el9
+  status: newest
+  summary: Scanning, tailoring, editing and validation tool for SCAP content
+  maintainers:
+    - releng@rockylinux.org
+  licenses:
+    - GPLv3+
+  categories:
+    - Unspecified
+- repo: ubuntu_18_04
+  subrepo: bionic/universe
+  srcname: scap-workbench
+  binnames:
+    - scap-workbench
+  visiblename: scap-workbench
+  version: 1.1.5
+  origversion: 1.1.5-1
+  status: outdated
+  maintainers:
+    - fpiat@klabs.be
+    - henri@nerv.fi
+    - klee@debian.org
+  categories:
+    - universe/misc
