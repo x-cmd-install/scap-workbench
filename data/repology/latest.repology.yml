@@ -1,15 +1,18 @@
-- repo: centos_6
-  subrepo: os
+- repo: pureos_amber
+  subrepo: amber/main
   srcname: scap-workbench
+  binnames:
+    - scap-workbench
   visiblename: scap-workbench
-  version: 1.1.1
-  origversion: 1.1.1-1.el6
+  version: 1.1.5
+  origversion: 1.1.5-1
   status: outdated
-  summary: Scanning, tailoring, editing and validation tool for SCAP content
-  licenses:
-    - GPLv3+
+  maintainers:
+    - fpiat@klabs.be
+    - henri@nerv.fi
+    - klee@debian.org
   categories:
-    - System Environment/Base
+    - admin
 - repo: almalinux_8
   subrepo: AppStream
   srcname: scap-workbench
@@ -523,21 +526,6 @@
     - GPL-3.0-only
   categories:
     - Productivity/Security
-- repo: pureos_amber
-  subrepo: amber/main
-  srcname: scap-workbench
-  binnames:
-    - scap-workbench
-  visiblename: scap-workbench
-  version: 1.1.5
-  origversion: 1.1.5-1
-  status: outdated
-  maintainers:
-    - fpiat@klabs.be
-    - henri@nerv.fi
-    - klee@debian.org
-  categories:
-    - admin
 - repo: rocky_8
   subrepo: AppStream
   srcname: scap-workbench
