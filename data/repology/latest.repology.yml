@@ -1,3 +1,26 @@
+- repo: eurolinux_8
+  subrepo: appstream
+  srcname: scap-workbench
+  visiblename: scap-workbench
+  version: 1.2.0
+  origversion: 1.2.0-8.el8
+  status: outdated
+  summary: Scanning, tailoring, editing and validation tool for SCAP content
+  licenses:
+    - GPLv3+
+  categories:
+    - System Environment/Base
+- repo: openeuler_20_03_lts_sp3
+  srcname: scap-workbench
+  visiblename: scap-workbench
+  version: 1.2.0
+  origversion: 1.2.0-2.oe1
+  status: outdated
+  summary: Scanning, tailoring, editing and validation tool for SCAP content
+  licenses:
+    - GPLv3+
+  categories:
+    - Unspecified
 - repo: pureos_amber
   subrepo: amber/main
   srcname: scap-workbench
@@ -31,9 +54,9 @@
   subrepo: AppStream
   srcname: scap-workbench
   binnames:
-    - scap-workbench-debugsource
-    - scap-workbench-debuginfo
     - scap-workbench
+    - scap-workbench-debuginfo
+    - scap-workbench-debugsource
   visiblename: scap-workbench
   version: 1.2.1
   origversion: 1.2.1-13.el9
@@ -230,18 +253,6 @@
     - GPLv3+
   categories:
     - System Environment/Base
-- repo: eurolinux_8
-  subrepo: appstream
-  srcname: scap-workbench
-  visiblename: scap-workbench
-  version: 1.2.0
-  origversion: 1.2.0-8.el8
-  status: outdated
-  summary: Scanning, tailoring, editing and validation tool for SCAP content
-  licenses:
-    - GPLv3+
-  categories:
-    - System Environment/Base
 - repo: eurolinux_9
   subrepo: appstream
   srcname: scap-workbench
@@ -350,17 +361,6 @@
   summary: Scanning, tailoring, editing and validation tool for SCAP content
   licenses:
     - GPL-3.0-or-later
-  categories:
-    - Unspecified
-- repo: openeuler_20_03_lts_sp3
-  srcname: scap-workbench
-  visiblename: scap-workbench
-  version: 1.2.0
-  origversion: 1.2.0-2.oe1
-  status: outdated
-  summary: Scanning, tailoring, editing and validation tool for SCAP content
-  licenses:
-    - GPLv3+
   categories:
     - Unspecified
 - repo: openeuler_20_03_lts_sp4
