@@ -1,3 +1,17 @@
+- repo: centos_stream_8
+  subrepo: AppStream
+  srcname: scap-workbench
+  visiblename: scap-workbench
+  version: 1.2.0
+  origversion: 1.2.0-8.el8
+  status: outdated
+  summary: Scanning, tailoring, editing and validation tool for SCAP content
+  maintainers:
+    - bugs@centos.org
+  licenses:
+    - GPLv3+
+  categories:
+    - System Environment/Base
 - repo: almalinux_8
   subrepo: AppStream
   srcname: scap-workbench
@@ -64,6 +78,18 @@
     - alex.henrie@aur
   licenses:
     - BSD
+- repo: aur
+  srcname: scap-workbench-git
+  binname: scap-workbench-git
+  visiblename: scap-workbench-git
+  version: 1.2.1.r67.10c1929
+  origversion: 1.2.1.r67.10c1929-2
+  status: rolling
+  summary: Security Content Automation Protocol GUI
+  maintainers:
+    - alex.henrie@aur
+  licenses:
+    - BSD
 - repo: blackarch
   srcname: scap-workbench
   binname: scap-workbench
@@ -87,20 +113,6 @@
   categories:
     - System Environment/Base
 - repo: centos_8
-  subrepo: AppStream
-  srcname: scap-workbench
-  visiblename: scap-workbench
-  version: 1.2.0
-  origversion: 1.2.0-8.el8
-  status: outdated
-  summary: Scanning, tailoring, editing and validation tool for SCAP content
-  maintainers:
-    - bugs@centos.org
-  licenses:
-    - GPLv3+
-  categories:
-    - System Environment/Base
-- repo: centos_stream_8
   subrepo: AppStream
   srcname: scap-workbench
   visiblename: scap-workbench
@@ -166,19 +178,6 @@
     - klee@debian.org
   categories:
     - misc
-- repo: deepin_unstable
-  subrepo: main
-  srcname: scap-workbench
-  binnames:
-    - scap-workbench
-  visiblename: scap-workbench
-  version: 1.1.5
-  origversion: 1.1.5-1
-  status: outdated
-  maintainers:
-    - fpiat@klabs.be
-    - henri@nerv.fi
-    - klee@debian.org
 - repo: eurolinux_8
   subrepo: appstream
   srcname: scap-workbench
@@ -241,22 +240,6 @@
   visiblename: scap-workbench
   version: 1.2.1
   origversion: 1.2.1-13.el9
-  status: newest
-  summary: Scanning, tailoring, editing and validation tool for SCAP content
-  licenses:
-    - GPLv3+
-  categories:
-    - Unspecified
-- repo: openeuler_24_03_lts
-  srcname: scap-workbench
-  binnames:
-    - scap-workbench
-    - scap-workbench-help
-    - scap-workbench-debuginfo
-    - scap-workbench-debugsource
-  visiblename: scap-workbench
-  version: 1.2.1
-  origversion: 1.2.1-2.oe2403
   status: newest
   summary: Scanning, tailoring, editing and validation tool for SCAP content
   licenses:
@@ -327,6 +310,18 @@
     - GPL-3.0-or-later
   categories:
     - Unspecified
+- repo: opensuse_leap_15_6
+  subrepo: main/oss
+  srcname: scap-workbench
+  visiblename: scap-workbench
+  version: 1.2.1
+  origversion: 1.2.1+git20210604.1fc6def-150400.1.5
+  status: newest
+  summary: A SCAP scanner and SCAP content editor
+  licenses:
+    - GPL-3.0-only
+  categories:
+    - Productivity/Security
 - repo: fedora_41
   subrepo: release
   srcname: scap-workbench
@@ -411,6 +406,22 @@
     - GPLv3+
   categories:
     - Unspecified
+- repo: openeuler_24_03_lts
+  srcname: scap-workbench
+  binnames:
+    - scap-workbench
+    - scap-workbench-help
+    - scap-workbench-debuginfo
+    - scap-workbench-debugsource
+  visiblename: scap-workbench
+  version: 1.2.1
+  origversion: 1.2.1-2.oe2403
+  status: newest
+  summary: Scanning, tailoring, editing and validation tool for SCAP content
+  licenses:
+    - GPLv3+
+  categories:
+    - Unspecified
 - repo: openeuler_24_03_lts_sp1
   srcname: scap-workbench
   binnames:
@@ -460,18 +471,6 @@
   categories:
     - Unspecified
 - repo: opensuse_leap_15_5
-  subrepo: main/oss
-  srcname: scap-workbench
-  visiblename: scap-workbench
-  version: 1.2.1
-  origversion: 1.2.1+git20210604.1fc6def-150400.1.5
-  status: newest
-  summary: A SCAP scanner and SCAP content editor
-  licenses:
-    - GPL-3.0-only
-  categories:
-    - Productivity/Security
-- repo: opensuse_leap_15_6
   subrepo: main/oss
   srcname: scap-workbench
   visiblename: scap-workbench
@@ -561,15 +560,3 @@
     - klee@debian.org
   categories:
     - universe/misc
-- repo: aur
-  srcname: scap-workbench-git
-  binname: scap-workbench-git
-  visiblename: scap-workbench-git
-  version: 1.2.1.r67.10c1929
-  origversion: 1.2.1.r67.10c1929-2
-  status: rolling
-  summary: Security Content Automation Protocol GUI
-  maintainers:
-    - alex.henrie@aur
-  licenses:
-    - BSD
